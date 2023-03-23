@@ -1,0 +1,54 @@
+.portfolioContainer {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0rem 3.125rem;
+    margin-bottom: 1.25rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.portfolioImageContainer {
+    max-width: 18.75rem;
+    margin: 0.625rem;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    /* border: 2px solid red; */
+}
+
+.portfolioImageContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolioDetails {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    text-align: center;
+    padding: 0.625rem;
+    color: transparent;
+    /* border: 2px solid yellow; */
+}
+
+.portfolioImageContainer:hover {
+    box-shadow: 0px 0px 20px #74ADC8;
+}
+
+.portfolioImageContainer:hover .portfolioDetails {
+    background-color: #80808078;
+    color: white;
+    /* color: black; */
+    font-weight: 900;
+    overflow: auto;
+}
+
+.portfolioImageContainer:hover .portfolioDetails .disney {
+    color: blue;
+}
+
+/* .portfolioImageContainer:hover .portfolioDetails .blog {
+    color: red;
+} */

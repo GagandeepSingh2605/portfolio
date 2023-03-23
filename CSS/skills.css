@@ -1,0 +1,107 @@
+section:nth-child(2n) {
+    background-color: #9e9b9b29;
+}
+
+section:nth-child(2n + 1) {
+    background-color: white;
+}
+
+/* #skills {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 500px;
+    display: block;
+    height: 75vh;
+    margin: auto;
+} */
+
+.sectionHeading {
+    /* border: 2px solid blue; */
+    width: auto;
+    /* margin: 0.625rem auto; */
+    padding: 1.25rem 0.625rem 0.625rem;
+    font-weight: 400;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.sectionHeading span {
+    font-size: 2.5rem;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 0.625rem;
+    margin-right: 0.5rem;
+    /* border: 2px solid red; */
+}
+
+.mb {
+    margin-bottom: 4.6875rem;
+}
+
+.skillsDisplay {
+    width: 70vw;
+    /* border: 2px solid red; */
+    /* height: 100px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* flex-direction: row; */
+    font-family: 'Source Code Pro', monospace;
+}
+
+.skillProgress {
+    width: 10rem;
+    height: 1.6rem;
+    background-color: lightgrey;
+    border-radius: 0.8rem;
+    /* border: 2px solid black; */
+    margin: 0.625rem;
+}
+
+.skillProgress>div {
+    border-radius: 1.25rem 0rem 0rem 1.25rem;
+    box-shadow: 0px 0px 2px 1px white;
+}
+
+.eightyFive {
+    width: 85%;
+    height: inherit;
+}
+
+.blue {
+    background-color: #2857a4;
+}
+
+.skillName span {
+    margin-left: 0.625rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.eighty {
+    width: 80%;
+    height: inherit;
+}
+
+.seventy {
+    width: 70%;
+    height: inherit;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.sixtyFive {
+    width: 65%;
+    height: inherit;
+}
+
+.sixty {
+    width: 60%;
+    height: inherit;
+}

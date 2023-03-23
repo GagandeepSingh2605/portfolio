@@ -1,0 +1,136 @@
+.timeline {
+    /* border: 2px solid black; */
+    position: relative;
+    width: 75%;
+}
+
+.timelineBoxes {
+    /* border: 2px solid blue; */
+    min-height: 150px;
+    width: 40%;
+    position: relative;
+    left: 5%;
+    text-align: right;
+}
+
+.timelineBoxes:nth-child(2n) {
+    left: 55%;
+}
+
+.timelineLogo {
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 50px;
+    overflow: hidden;
+}
+
+.timelineLogo > img {
+    width: 100%;
+}
+
+.timelineContainer {
+    padding: 8px;
+}
+
+.designation {
+    color: #2857a4;
+    font-size: 1.4rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.company {
+    color: #eb822d;
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.duration {
+    color: #9e9b9b;
+    font-weight: 100;
+    font-size: 1rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.material {
+    /* border: 2px solid pink; */
+    padding: 0.125rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: grey;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.timelineImg {
+    height: 50px;
+    width: 50px;
+}
+
+.timelineDivider {
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 2px dashed #0096fa6b;
+    top: 10%;
+    left: 50%;
+}
+
+.timelineTraveller {
+    position: sticky;
+    /* top: 25%; */
+    top: 38%;
+    transform: rotate(90deg);
+    z-index: 2;
+    
+}
+
+.timelineTraveller i {
+    /* width: 100%;
+    height: 100%; */
+    color: #2857a4;
+    display: block;
+    /* width: 40px; */
+}
+
+.timelineBoxes:nth-child(2n + 1):after {
+    content: '';
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: grey;
+    position: absolute;
+    top: 38%;
+    right: -3.875rem;
+    z-index: 1;
+}
+
+.timelineBoxes:nth-child(2n):after {
+    content: '';
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: grey;
+    position: absolute;
+    top: 38%;
+    left: -3.875rem;
+    z-index: 1;
+}
+
+/* .adjust {
+    width: 40px;
+    height: 40px;
+} */
+
+/* .timelineList {
+    list-style-type: none;
+}
+
+.timelineList li::before {
+    content: "-->";
+    margin-right: 0.3125rem;
+    color: #2857a4;
+} */

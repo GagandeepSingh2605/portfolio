@@ -1,0 +1,41 @@
+
+#about {
+    height: auto;
+    width: 100vw;
+    /* position: relative;
+    top: 48vh; */
+    position: relative;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.myImage {
+    height: 15rem;
+    width: 15rem;
+    display: block;
+    margin: auto;
+    margin-top: -16vh;
+}
+
+.myImage img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0rem 0rem 0.375rem 0.4rem rgb(250, 249, 249);
+}
+
+.mySelf {
+    width: 60vw;
+    margin: auto;
+    /* border: 2px solid blue; */
+    /* text-align: center; */
+    margin-top: 3.3125rem;
+    font-size: 1.5rem;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    text-align: justify;
+}
+
+/* #about {
+    background-color: lightgrey;
+    height: 100vh;
+} */

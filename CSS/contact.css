@@ -1,0 +1,102 @@
+#contact {
+    /* border: 2px solid black; */
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    padding-bottom: 2.5rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#contact h1, #contact h1 span {
+    color: white;
+}
+
+#contactContainer {
+    /* border: 2px solid black; */
+    display: flex;
+    margin-bottom: 4.25rem;
+}
+
+#contactFormContainer {
+    /* border: 2px solid red; */
+    width: 50%;
+}
+
+#contactForm {
+    /* border: 2px solid yellow; */
+    margin-left: 20%;
+}
+
+#myDetailsContainer {
+    /* border: 2px solid pink; */
+    width: 35%;
+    margin-left: 6%
+}
+
+#myDetailsContainer h3 {
+    color: white;
+    font-weight: 550;
+    font-size: 1.2rem;
+    margin-bottom: 1.25rem;
+}
+
+#myDetailsContainer p {
+    margin-bottom: 1.25rem;
+}
+
+#myDetailsContainer p {
+    color: #d9dcdd;
+    font-size: 0.9rem;
+}
+
+.myDetailsInfoContainer {
+    margin-bottom: 1.25rem;
+    color: #d9dcdd;
+    font-size: 1rem;
+}
+
+.myDetailsInfoContainer span {
+    margin-left: 0.4rem;
+}
+
+.myDetailsInfoContainer i {
+    color: white;
+}
+
+#contactForm input, textarea {
+    max-width: 90%;
+    /* border: 2px solid green; */
+    margin: 15px;
+    padding: 0.25rem 0.625rem;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: #d9dcdd;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+.btn {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 0.125rem;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    text-transform: uppercase;
+    padding: 0.8em 0.8em 0.78em;
+}
+
+.btn:hover {
+    background: white;
+    color: #13386fe0;
+    cursor: pointer;
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+}
